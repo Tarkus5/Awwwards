@@ -1,10 +1,13 @@
 import Hero from './components/Hero'
+import About from "./components/About.jsx";
+import Navbar from "./components/Navbar.jsx";
 
 const App = () => {
   return (
     <main>
-      <Hero className="relative min-h-screen w-screen overflow-x-hidden" />
-        <section className='z-o min-h-screen bg-blue-500' />
+        <Navbar />
+        <Hero className="relative min-h-screen w-screen overflow-x-hidden" />
+        <About />
     </main>
   )
 } 
