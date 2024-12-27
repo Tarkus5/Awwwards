@@ -4,9 +4,9 @@ import Navbar from "./components/Navbar.jsx";
 
 const App = () => {
   return (
-    <main>
+    <main className="relative min-h-screen w-screen overflow-x-hidden">
         <Navbar />
-        <Hero className="relative min-h-screen w-screen overflow-x-hidden" />
+        <Hero />
         <About />
     </main>
   )
